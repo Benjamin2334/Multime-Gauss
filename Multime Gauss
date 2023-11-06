@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int long long s=0, n, i;
+int main()
+{
+    cin>>n;
+    
+for(i=1;s+i<n;i++)
+{
+    s+=i;
+}
+cout<<i;
+    
+    return 0;
+}
